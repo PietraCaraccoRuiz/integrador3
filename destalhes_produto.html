@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Produtos</title>
+</head>
+<body id="gray">
+    <nav>
+        <a href="index.html"><img src="./img/logo.png"></a>
+        <ul class="menu">
+            <li>
+                <a href="produtos.html">Produtos</a>
+                <ul class="submenu">
+                    <li ><a href="produtos.html"><img src="./img/nav-produtos/1.png">Drone Pro</a><div><a>Info</a><a>Comprar</a></div></li>
+                    <li><a href="produtos.html"><img src="./img/nav-produtos/2.png">Drone Pro</a><div><a>Info</a><a>Comprar</a></div></li>
+                    <li><a href="produtos.html"><img src="./img/nav-produtos/3.png">Drone Pro</a><div><a>Info</a><a>Comprar</a></div></li>
+                    <li><a href="produtos.html"><img src="./img/nav-produtos/4.png">Drone Pro</a><div><a>Info</a><a>Comprar</a></div></li>
+                    <li><a href="produtos.html"><img src="./img/nav-produtos/5.png">Drone Pro</a><div><a>Info</a><a>Comprar</a></div></li>
+                </ul>
+            </li>
+            <li><a>oi</a></li>
+            <li><a>oi</a></li>
+            <li><a>oi</a></li>
+        </ul>
+        <a><img src="./img/favoritos.png" class="cart-icon"></a>
+    </nav>
+    <main class="details">
+        <div class="produto-details">
+            <div class="info">
+                <div class="info-img">
+                    <img src="./img/produtos/camera.png"></img>
+                    <div>
+                        <img src="img/produtos/camera2.png"></img>
+                        <img src="img/produtos/camera3.png"></img>
+                        <img src="img/produtos/camera4.png"></img>
+                    </div>
+                </div>
+                <section>
+                    <h1>CAMERA</h1>
+                    <h3>Camera ProShot X500</h3>
+                    <p>Capture cada momento com máxima nitidez usando a Câmera Digital ProShot X500, projetada para entusiastas e profissionais da fotografia.</p>
+                    <div class="buttons">
+                        <div class="radio-group">
+                            <h4>cor:</h4>
+                            <label class="color1"><input type="radio" name="cor2"/></label>
+                            <label class="color2"><input type="radio" name="cor2"/></label>
+                            <label class="color3"><input type="radio" name="cor2"/></label>
+                        </div>
+                        <div class="quantity-selector">
+                            <button type="button" id="border-right">−</button>
+                            <input type="number" class="quantity-input" value="1" min="1" max="99">
+                            <button type="button" id="border-left">+</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>preço:</h4>
+                        <p> R$ 5,99</p>
+                    </div>
+                    
+                    <div class="buttons">
+                        <button><i class="bi bi-basket"></i> Adicione ao Carrinho</button>
+                        <button id="button-fav"><i class="bi bi-heart"></i></button>
+                        <button id="button-fav"><i class="bi bi-share"></i></button>
+                    </div>
+                    
+                </section>
+            </div>
+            <div class="carrosel">
+                <i class="bi bi-caret-left"></i>
+                <img src="img/nav-produtos/1.png"></img>
+                <img src="img/nav-produtos/2.png"></img>
+                <img src="img/nav-produtos/3.png"></img>
+                <img src="img/nav-produtos/4.png"></img>
+                <img src="img/nav-produtos/5.png"></img>
+                <img src="img/nav-produtos/6.png"></img>
+                <i class="bi bi-caret-right"></i>
+            </div>
+        </div>
+        <div class="overview">
+            <p>Avaliações</p>
+            <h1>4.1</h1>
+            <div class="star-avaliacoes">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+            </div>
+            <div class="comentario">
+                <div class="comentario-header">
+                    <div class="usuario-info">
+                        <div class="usuario-avatar">MR</div>
+                        <div>
+                            <div class="usuario-nome">Maria Rosa</div>
+                            <div class="comentario-data">há 2 dias</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comentario-texto">
+                    Produto excelente! A qualidade da câmera é impressionante.
+                </div>
+            </div>
+            <div class="comentario">
+                <div class="comentario-header">
+                    <div class="usuario-info">
+                        <div class="usuario-avatar">JS</div>
+                        <div>
+                            <div class="usuario-nome">João Silva</div>
+                            <div class="comentario-data">há 5 dias</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comentario-texto">
+                    Boa câmera, atende bem às expectativas.
+                </div>
+            </div>
+            
+            </div>
+        </div>
+    </main>
+    <div class="avaliacoes">
+        <div class="avaliacoes-header">
+            <h2>Avaliações dos Clientes</h2>
+            <div class="rating-summary">
+                <h2>4.1</h2>
+                    <div class="star-avaliacoes">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                <div class="total-reviews">baseado em 127 avaliações</div>
+            </div>
+        </div>
+
+        <!-- Estatísticas de avaliações -->
+        <div class="rating-stats">
+            <div class="rating-bar">
+                <span class="rating-bar-label">5 estrelas</span>
+                <div class="rating-bar-bg">
+                    <div class="rating-bar-fill" style="width: 65%"></div>
+                </div>
+                <span class="rating-bar-count">82</span>
+            </div>
+            <div class="rating-bar">
+                <span class="rating-bar-label">4 estrelas</span>
+                <div class="rating-bar-bg">
+                    <div class="rating-bar-fill" style="width: 20%"></div>
+                </div>
+                <span class="rating-bar-count">25</span>
+            </div>
+            <div class="rating-bar">
+                <span class="rating-bar-label">3 estrelas</span>
+                <div class="rating-bar-bg">
+                    <div class="rating-bar-fill" style="width: 10%"></div>
+                </div>
+                <span class="rating-bar-count">13</span>
+            </div>
+            <div class="rating-bar">
+                <span class="rating-bar-label">2 estrelas</span>
+                <div class="rating-bar-bg">
+                    <div class="rating-bar-fill" style="width: 3%"></div>
+                </div>
+                <span class="rating-bar-count">4</span>
+            </div>
+            <div class="rating-bar">
+                <span class="rating-bar-label">1 estrela</span>
+                <div class="rating-bar-bg">
+                    <div class="rating-bar-fill" style="width: 2%"></div>
+                </div>
+                <span class="rating-bar-count">3</span>
+            </div>
+        </div>
+
+        <!-- Formulário para nova avaliação -->
+        <div class="nova-avaliacao">
+            <h3>Deixe sua avaliação</h3>
+            <form id="form-avaliacao">
+                <div>
+                    <label>Sua nota:</label>
+                    <div class="star-rating">
+                        <input type="radio" id="star5" name="rating" value="5">
+                        <label for="star5"><i class="bi bi-star-fill"></i></label>
+                        <input type="radio" id="star4" name="rating" value="4">
+                        <label for="star4"><i class="bi bi-star-fill"></i></label>
+                        <input type="radio" id="star3" name="rating" value="3">
+                        <label for="star3"><i class="bi bi-star-fill"></i></label>
+                        <input type="radio" id="star2" name="rating" value="2">
+                        <label for="star2"><i class="bi bi-star-fill"></i></label>
+                        <input type="radio" id="star1" name="rating" value="1">
+                        <label for="star1"><i class="bi bi-star-fill"></i></label>
+                    </div>
+                </div>
+                <div>
+                    <label for="comentario">Seu comentário:</label>
+                    <textarea id="comentario" placeholder="Conte sobre sua experiência com o produto..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <i class="bi bi-send"></i> Enviar Avaliação
+                </button>
+            </form>
+        </div>
+
+        <!-- Lista de comentários -->
+        <div class="comentarios-lista">
+            <div class="comentario">
+                <div class="comentario-header">
+                    <div class="usuario-info">
+                        <div class="usuario-avatar">MR</div>
+                        <div>
+                            <div class="usuario-nome">Maria Rosa</div>
+                            <div class="comentario-data">há 2 dias</div>
+                        </div>
+                    </div>
+                    <div class="star-avaliacoes">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+                <div class="comentario-texto">
+                    Produto excelente! A qualidade da câmera é impressionante, muito melhor do que esperava. As fotos ficam nítidas mesmo em ambientes com pouca luz. Recomendo para quem está procurando uma câmera profissional.
+                </div>
+                <div class="comentario-acoes">
+                    <div class="acao-btn liked">
+                        <i class="bi bi-hand-thumbs-up"></i> Útil (12)
+                    </div>
+                    <div class="acao-btn">
+                        <i class="bi bi-reply"></i> Responder
+                    </div>
+                </div>
+            </div>
+
+            <div class="comentario">
+                <div class="comentario-header">
+                    <div class="usuario-info">
+                        <div class="usuario-avatar">JS</div>
+                        <div>
+                            <div class="usuario-nome">João Silva</div>
+                            <div class="comentario-data">há 5 dias</div>
+                        </div>
+                    </div>
+                    <div class="star-avaliacoes">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+                <div class="comentario-texto">
+                    Boa câmera, atende bem às expectativas. A bateria dura bastante e a interface é intuitiva. Único ponto negativo é que poderia vir com mais acessórios na caixa.
+                </div>
+                <div class="comentario-acoes">
+                    <div class="acao-btn">
+                        <i class="bi bi-hand-thumbs-up"></i> Útil (8)
+                    </div>
+                    <div class="acao-btn">
+                        <i class="bi bi-reply"></i> Responder
+                    </div>
+                </div>
+            </div>
+
+            <div class="comentario">
+                <div class="comentario-header">
+                    <div class="usuario-info">
+                        <div class="usuario-avatar">AC</div>
+                        <div>
+                            <div class="usuario-nome">Ana Clara</div>
+                            <div class="comentario-data">há 1 semana</div>
+                        </div>
+                    </div>
+                    <div class="star-avaliacoes">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+                <div class="comentario-texto">
+                    Simplesmente perfeita! Uso para fotografar eventos e o resultado é profissional. A entrega foi rápida e o produto chegou bem embalado. Nota 10!
+                </div>
+                <div class="comentario-acoes">
+                    <div class="acao-btn">
+                        <i class="bi bi-hand-thumbs-up"></i> Útil (15)
+                    </div>
+                    <div class="acao-btn">
+                        <i class="bi bi-reply"></i> Responder
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
