@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <title>RacTeck - Carrinho</title>
+    <title>Carrinho - RadTek</title>
 </head>
 <body>
     <nav>
@@ -143,10 +143,26 @@
                             <p id="total">Total</p>
                             <h1>R$000,00</h1>
                         </div>
-                        <a id="button-shadow" href="#">Finalizar compra</a>
+                        <a id="button-shadow" href="#modal-pedido" class="abrir-modal">Finalizar compra</a>
                     </div>
                 </div>
             </div>
-    </main>  
+    </main>
+    <div id="modal-pedido" class="modal-pedido">
+        <section>
+            <div id="title">
+                <div id="fechar">
+                    <i class="bi bi-credit-card-2-back"></i>
+                    <h1>Pagamento</h1>
+                </div>
+                <a href="#" id="fechar"><i class="bi bi-x"></i></a>
+            </div>
+            <p>Selecione forma de pagamento:</p>
+            <div class="buttons">
+                <a href="pagamento_cartao.html" class="botao-ver"><button>Cartão</button></a>
+                <a href="pagamento_pix.html" class="botao-ver"><button>Pix</button></a>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
