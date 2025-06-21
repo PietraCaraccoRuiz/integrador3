@@ -10,16 +10,16 @@
 </head>
 <body>
     <nav>
-        <a href="home"><img src="./img/logo.png"></a>
+        <a href="index.html"><img src="./img/logo.png"></a>
         <ul class="menu">
             <li>
                 <a href="produtos.html">Produtos</a>
                 <ul class="submenu">
-                    <li ><a href="produtos.html"><img src="./img/nav-produtos/1.png">Drone Pro</a><div><a>Info</a><a>Comprar</a></div></li>
-                    <li><a href="produtos.html"><img src="./img/nav-produtos/2.png">Drone Pro</a><div><a>Info</a><a>Comprar</a></div></li>
-                    <li><a href="produtos.html"><img src="./img/nav-produtos/3.png">Drone Pro</a><div><a>Info</a><a>Comprar</a></div></li>
-                    <li><a href="produtos.html"><img src="./img/nav-produtos/4.png">Drone Pro</a><div><a>Info</a><a>Comprar</a></div></li>
-                    <li><a href="produtos.html"><img src="./img/nav-produtos/5.png">Drone Pro</a><div><a>Info</a><a>Comprar</a></div></li>
+                    <li ><a href="produtos.html"><img src="./img/nav-produtos/1.png">Câmera</a><div><a href="sobre.html">Info</a><a href="destalhes_produto.html">Comprar</a></div></li>
+                    <li><a href="produtos.html"><img src="./img/nav-produtos/2.png">Air Pods</a><div><a href="sobre.html">Info</a><a href="destalhes_produto.html">Comprar</a></div></li>
+                    <li><a href="produtos.html"><img src="./img/nav-produtos/3.png">Microfone</a><div><a href="sobre.html">Info</a><a href="destalhes_produto.html">Comprar</a></div></li>
+                    <li><a href="produtos.html"><img src="./img/nav-produtos/4.png">Smartphone</a><div><a href="sobre.html">Info</a><a href="destalhes_produto.html">Comprar</a></div></li>
+                    <li><a href="produtos.html"><img src="./img/nav-produtos/5.png">Fone</a><div><a href="sobre.html">Info</a><a href="destalhes_produto.html">Comprar</a></div></li>
                 </ul>
             </li>
             <li><a href="ofertas.html">Ofertas</a></li>
@@ -129,129 +129,489 @@
                 <img src="img/banner.jpg" alt="Banner de Oferta">
             </div>
             <div class="produtos-container">
-                <div class="card">
-                    <div>
-                        <img src="./img/nav-produtos/1.png" alt="Drone Pro 4K">
+                <!-- PRODUTO 1 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/1.png" alt="Drone Pro 4K"></img>
+                        </div>
+                        <p>Drone Pro 4K</p>
+                        <div>
+                            <span>R$1.200,00</span><strong>R$999,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor1"/></label>
+                            <label class="color2"><input type="radio" name="cor1"/></label>
+                            <label class="color3"><input type="radio" name="cor1"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                    <p>Drone Pro 4K</p>
-                    <div>
-                        <span>R$1.200,00</span><strong>R$999,00</strong>
+                </a>
+                <!-- PRODUTO 2 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/2.png" alt="Smartphone Pixon X12"></img>
+                        </div>
+                        <p>Smartphone Pixon X12</p>
+                        <div>
+                            <span>R$899,00</span><strong>R$749,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor2"/></label>
+                            <label class="color2"><input type="radio" name="cor2"/></label>
+                            <label class="color3"><input type="radio" name="cor2"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                    <div class="radio-group">
-                        <label class="color1"><input type="radio" name="cor4"/></label>
-                        <label class="color2"><input type="radio" name="cor4"/></label>
-                        <label class="color3"><input type="radio" name="cor4"/></label>
-                        <a href="destalhes_produto.html"><i class="fas fa-shopping-cart"></i></a>
+                </a>
+                <!-- PRODUTO 3 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/3.png" alt="Câmera InnoCam Ultra"></img>
+                        </div>
+                        <p>Câmera InnoCam Ultra</p>
+                        <div>
+                            <span>R$1.599,00</span><strong>R$1.299,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor3"/></label>
+                            <label class="color2"><input type="radio" name="cor3"/></label>
+                            <label class="color3"><input type="radio" name="cor3"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="card">
-                    <div>
-                        <img src="./img/nav-produtos/2.png" alt="Smartphone X10">
+                </a>
+                <!-- PRODUTO 4 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/4.png" alt="Fone AudioX Wireless"></img>
+                        </div>
+                        <p>Fone AudioX Wireless</p>
+                        <div>
+                            <span>R$449,00</span><strong>R$349,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor4"/></label>
+                            <label class="color2"><input type="radio" name="cor4"/></label>
+                            <label class="color3"><input type="radio" name="cor4"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                    <p>Smartphone X10</p>
-                    <div>
-                        <span>R$2.500,00</span><strong>R$1.999,00</strong>
+                </a>
+                <!-- PRODUTO 5 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/5.png" alt="Smartwatch WearFit Pro"></img>
+                        </div>
+                        <p>Smartwatch WearFit Pro</p>
+                        <div>
+                            <span>R$699,00</span><strong>R$549,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor5"/></label>
+                            <label class="color2"><input type="radio" name="cor5"/></label>
+                            <label class="color3"><input type="radio" name="cor5"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                    <div class="radio-group">
-                        <label class="color1"><input type="radio" name="cor3"/></label>
-                        <label class="color2"><input type="radio" name="cor3"/></label>
-                        <label class="color3"><input type="radio" name="cor3"/></label>
-                        <a href="destalhes_produto.html"><i class="fas fa-shopping-cart"></i></a>
+                </a>
+                <!-- PRODUTO 6 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/1.png" alt="Drone Mini Explorer"></img>
+                        </div>
+                        <p>Drone Mini Explorer</p>
+                        <div>
+                            <span>R$399,00</span><strong>R$299,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor6"/></label>
+                            <label class="color2"><input type="radio" name="cor6"/></label>
+                            <label class="color3"><input type="radio" name="cor6"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div>
-                        <img src="./img/nav-produtos/3.png" alt="Câmera Ultra HD">
+                </a>
+                <!-- PRODUTO 7 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/2.png" alt="Smartphone Pixon Edge"></img>
+                        </div>
+                        <p>Smartphone Pixon Edge</p>
+                        <div>
+                            <span>R$1.399,00</span><strong>R$1.199,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor7"/></label>
+                            <label class="color2"><input type="radio" name="cor7"/></label>
+                            <label class="color3"><input type="radio" name="cor7"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                    <p>Câmera Ultra HD</p>
-                    <div>
-                        <span>R$1.800,00</span><strong>R$1.499,00</strong>
+                </a>
+                <!-- PRODUTO 8 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/3.png" alt="Câmera Action InnoCam Go"></img>
+                        </div>
+                        <p>Câmera Action InnoCam Go</p>
+                        <div>
+                            <span>R$799,00</span><strong>R$649,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor8"/></label>
+                            <label class="color2"><input type="radio" name="cor8"/></label>
+                            <label class="color3"><input type="radio" name="cor8"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                    <div class="radio-group">
-                        <label class="color1"><input type="radio" name="cor2"/></label>
-                        <label class="color2"><input type="radio" name="cor2"/></label>
-                        <label class="color3"><input type="radio" name="cor2"/></label>
-                        <a href="destalhes_produto.html"><i class="fas fa-shopping-cart"></i></a>
+                </a>
+                <!-- PRODUTO 9 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/4.png" alt="Fone AudioX Gaming"></img>
+                        </div>
+                        <p>Fone AudioX Gaming</p>
+                        <div>
+                            <span>R$599,00</span><strong>R$499,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor9"/></label>
+                            <label class="color2"><input type="radio" name="cor9"/></label>
+                            <label class="color3"><input type="radio" name="cor9"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div>
-                        <img src="./img/nav-produtos/4.png" alt="Fone Bluetooth Z9">
+                </a>
+                <!-- PRODUTO 10 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/5.png" alt="Smartband WearFit Active"></img>
+                        </div>
+                        <p>Smartband WearFit Active</p>
+                        <div>
+                            <span>R$249,00</span><strong>R$199,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor10"/></label>
+                            <label class="color2"><input type="radio" name="cor10"/></label>
+                            <label class="color3"><input type="radio" name="cor10"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                    <p>Fone Bluetooth Z9</p>
-                    <div>
-                        <span>R$350,00</span><strong>R$299,00</strong>
+                </a>
+                <!-- PRODUTO 11 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/1.png" alt="Drone Professional 8K"></img>
+                        </div>
+                        <p>Drone Professional 8K</p>
+                        <div>
+                            <span>R$2.999,00</span><strong>R$2.599,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor11"/></label>
+                            <label class="color2"><input type="radio" name="cor11"/></label>
+                            <label class="color3"><input type="radio" name="cor11"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                    <div class="radio-group">
-                        <label class="color1"><input type="radio" name="cor1"/></label>
-                        <label class="color2"><input type="radio" name="cor1"/></label>
-                        <label class="color3"><input type="radio" name="cor1"/></label>
-                        <a href="destalhes_produto.html"><i class="fas fa-shopping-cart"></i></a>
+                </a>
+                <!-- PRODUTO 12 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/2.png" alt="Smartphone Pixon Lite"></img>
+                        </div>
+                        <p>Smartphone Pixon Lite</p>
+                        <div>
+                            <span>R$549,00</span><strong>R$449,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor12"/></label>
+                            <label class="color2"><input type="radio" name="cor12"/></label>
+                            <label class="color3"><input type="radio" name="cor12"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div>
-                        <img src="./img/nav-produtos/5.png" alt="Smartwatch FitPro">
+                </a>
+                <!-- PRODUTO 13 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/3.png" alt="Câmera InnoCam Studio"></img>
+                        </div>
+                        <p>Câmera InnoCam Studio</p>
+                        <div>
+                            <span>R$2.199,00</span><strong>R$1.899,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor13"/></label>
+                            <label class="color2"><input type="radio" name="cor13"/></label>
+                            <label class="color3"><input type="radio" name="cor13"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                    <p>Smartwatch FitPro</p>
-                    <div>
-                        <span>R$700,00</span><strong>R$599,00</strong>
+                </a>
+                <!-- PRODUTO 14 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/4.png" alt="Fone AudioX Studio Pro"></img>
+                        </div>
+                        <p>Fone AudioX Studio Pro</p>
+                        <div>
+                            <span>R$899,00</span><strong>R$749,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor14"/></label>
+                            <label class="color2"><input type="radio" name="cor14"/></label>
+                            <label class="color3"><input type="radio" name="cor14"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                    <div class="radio-group">
-                        <label class="color1"><input type="radio" name="cor5"/></label>
-                        <label class="color2"><input type="radio" name="cor5"/></label>
-                        <label class="color3"><input type="radio" name="cor5"/></label>
-                        <a href="destalhes_produto.html"><i class="fas fa-shopping-cart"></i></a>
+                </a>
+                <!-- PRODUTO 15 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/5.png" alt="Smartwatch WearFit Elite"></img>
+                        </div>
+                        <p>Smartwatch WearFit Elite</p>
+                        <div>
+                            <span>R$1.199,00</span><strong>R$999,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor15"/></label>
+                            <label class="color2"><input type="radio" name="cor15"/></label>
+                            <label class="color3"><input type="radio" name="cor15"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                </div>
-                 <div class="card">
-                    <div>
-                        <img src="./img/nav-produtos/6.png" alt="Laptop Gamer Xtreme">
+                </a>
+                <!-- PRODUTO 16 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/1.png" alt="Drone Racing Speed"></img>
+                        </div>
+                        <p>Drone Racing Speed</p>
+                        <div>
+                            <span>R$699,00</span><strong>R$599,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor16"/></label>
+                            <label class="color2"><input type="radio" name="cor16"/></label>
+                            <label class="color3"><input type="radio" name="cor16"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                    <p>Laptop Gamer Xtreme</p>
-                    <div>
-                        <span>R$7.000,00</span><strong>R$5.999,00</strong>
+                </a>
+                <!-- PRODUTO 17 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/2.png" alt="Smartphone Pixon Max"></img>
+                        </div>
+                        <p>Smartphone Pixon Max</p>
+                        <div>
+                            <span>R$1.899,00</span><strong>R$1.699,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor17"/></label>
+                            <label class="color2"><input type="radio" name="cor17"/></label>
+                            <label class="color3"><input type="radio" name="cor17"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                    <div class="radio-group">
-                        <label class="color1"><input type="radio" name="cor6"/></label>
-                        <label class="color2"><input type="radio" name="cor6"/></label>
-                        <label class="color3"><input type="radio" name="cor6"/></label>
-                        <a href="destalhes_produto.html"><i class="fas fa-shopping-cart"></i></a>
+                </a>
+                <!-- PRODUTO 18 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/3.png" alt="Câmera InnoCam Pocket"></img>
+                        </div>
+                        <p>Câmera InnoCam Pocket</p>
+                        <div>
+                            <span>R$399,00</span><strong>R$329,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor18"/></label>
+                            <label class="color2"><input type="radio" name="cor18"/></label>
+                            <label class="color3"><input type="radio" name="cor18"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div>
-                        <img src="./img/nav-produtos/7.png" alt="Caixa de Som SoundBlast">
+                </a>
+                <!-- PRODUTO 19 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/4.png" alt="Fone AudioX Bluetooth"></img>
+                        </div>
+                        <p>Fone AudioX Bluetooth</p>
+                        <div>
+                            <span>R$299,00</span><strong>R$249,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor19"/></label>
+                            <label class="color2"><input type="radio" name="cor19"/></label>
+                            <label class="color3"><input type="radio" name="cor19"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                    <p>Caixa de Som SoundBlast</p>
-                    <div>
-                        <span>R$400,00</span><strong>R$280,00</strong>
+                </a>
+                <!-- PRODUTO 20 -->
+                <a href="destalhes_produto.html">
+                    <div class="card">
+                        <div>
+                            <img src="./img/nav-produtos/5.png" alt="Smartwatch WearFit Sport"></img>
+                        </div>
+                        <p>Smartwatch WearFit Sport</p>
+                        <div>
+                            <span>R$799,00</span><strong>R$699,00</strong>
+                        </div>
+                        <div class="radio-group">
+                            <label class="color1"><input type="radio" name="cor20"/></label>
+                            <label class="color2"><input type="radio" name="cor20"/></label>
+                            <label class="color3"><input type="radio" name="cor20"/></label>
+                            <a id="comprar" href="#modal-pedido" class="abrir-modal"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
                     </div>
-                    <div class="radio-group">
-                        <label class="color1"><input type="radio" name="cor7"/></label>
-                        <label class="color2"><input type="radio" name="cor7"/></label>
-                        <label class="color3"><input type="radio" name="cor7"/></label>
-                        <a href="destalhes_produto.html"><i class="fas fa-shopping-cart"></i></a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div>
-                        <img src="./img/nav-produtos/8.png" alt="Tablet ProTab A5">
-                    </div>
-                    <p>Tablet ProTab A5</p>
-                    <div>
-                        <span>R$950,00</span><strong>R$799,00</strong>
-                    </div>
-                    <div class="radio-group">
-                        <label class="color1"><input type="radio" name="cor8"/></label>
-                        <label class="color2"><input type="radio" name="cor8"/></label>
-                        <label class="color3"><input type="radio" name="cor8"/></label>
-                        <a href="destalhes_produto.html"><i class="fas fa-shopping-cart"></i></a>
-                    </div>
-                </div>
+                </a>
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="img/logo-branco.png" alt="RadTek Logo">
+                <p>Conectando você à tecnologia do futuro com produtos inovadores e serviços excepcionais.</p>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="YouTube">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section footer-links">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="ofertas.html">Ofertas</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section footer-links">
+                <h4>Categorias</h4>
+                <ul>
+                    <li><a href="produtos.html?cat=drones">Drones</a></li>
+                    <li><a href="produtos.html?cat=smartphones">Smartphones</a></li>
+                    <li><a href="produtos.html?cat=cameras">Câmeras</a></li>
+                    <li><a href="produtos.html?cat=fones">Fones de Ouvido</a></li>
+                    <li><a href="produtos.html?cat=wearables">Wearables</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section footer-contato">
+                <h4>Contato</h4>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="bi bi-envelope-fill"></i>
+                    </div>
+                    <span>contato@radtek.com</span>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="bi bi-telephone-fill"></i>
+                    </div>
+                    <span>(11) 91234-5678</span>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="bi bi-geo-alt-fill"></i>
+                    </div>
+                    <span>São Paulo - SP</span>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="bi bi-clock-fill"></i>
+                    </div>
+                    <span>Seg - Sex: 9h às 18h</span>
+                </div>
+
+                <div class="newsletter">
+                    <h4>Newsletter</h4>
+                    <p style="font-size: 0.9rem; color: #cbd5e1; margin-bottom: 15px;">
+                        Receba ofertas exclusivas e novidades em primeira mão.
+                    </p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Seu e-mail">
+                        <button type="submit" class="newsletter-btn">
+                            <i class="bi bi-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <div class="copyright">
+                    <p>&copy; 2025 <strong>RadTek</strong>. Todos os direitos reservados.</p>
+                </div>
+                <nav class="footer-nav">
+                    <a href="privacidade.html">Política de Privacidade</a>
+                    <a href="termos.html">Termos de Uso</a>
+                    <a href="cookies.html">Cookies</a>
+                    <a href="suporte.html">Suporte</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <!-- MODAL CONFIRMAÇÂO -->
+    <div id="modal-pedido" class="modal-pedido">
+        <section>
+            <div id="title">
+                <div id="fechar">
+                    <i class="bi bi-cart-check-fill"></i>
+                    <h1>Adicionado</h1>
+                </div>
+                <a href="#" id="fechar"><i class="bi bi-x"></i></a>
+            </div>
+            <p><strong>Produto</strong> foi adicionado ao seu carrinho.</p>
+            <div class="buttons">
+                <a href="carrinho.html" class="botao-ver"><button>Ver carrinho</button></a>
+            </div>
+        </section>
+    </div>
 </body>
 </html>

@@ -7,38 +7,40 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <title>RacTeck - Cadastrar Produto</title>
 </head>
-<body>
+<body id="gray">
     <nav>
-        <a href="index.html"><img src="./img/logo.png" alt="Logo"></a>
+        <a href="../index.html"><img src="../img/logo.png"></a>
         <ul class="menu">
             <li>
-                <a href="produtos.html">Produtos</a>
+                <a href="../produtos.html">Produtos</a>
                 <ul class="submenu">
-                    <li><a href="produtos.html"><img src="./img/nav-produtos/1.png">Drone Pro</a><div><a>Info</a><a>Comprar</a></div></li>
-                    <!-- Outros produtos -->
+                    <li ><a href="../produtos.html"><img src="../img/nav-produtos/1.png">Câmera</a><div><a href="../sobre.html">Info</a><a href="../destalhes_produto.html">Comprar</a></div></li>
+                    <li><a href="../produtos.html"><img src="../img/nav-produtos/2.png">Air Pods</a><div><a href="../sobre.html">Info</a><a href="../destalhes_produto.html">Comprar</a></div></li>
+                    <li><a href="../produtos.html"><img src="../img/nav-produtos/3.png">Microfone</a><div><a href="../sobre.html">Info</a><a href="../destalhes_produto.html">Comprar</a></div></li>
+                    <li><a href="../produtos.html"><img src="../img/nav-produtos/4.png">Smartphone</a><div><a href="../sobre.html">Info</a><a href="../destalhes_produto.html">Comprar</a></div></li>
+                    <li><a href="../produtos.html"><img src="../img/nav-produtos/5.png">Fone</a><div><a href="../sobre.html">Info</a><a href="../destalhes_produto.html">Comprar</a></div></li>
                 </ul>
             </li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#">naosei</a></li>
+            <li><a href="crud.html">Crud</a></li>
+            <li><a href="relatorio.html">Relatório</a></li>
+            <li><a href="../contato.html">Contato</a></li>
         </ul>
         <div class="search">
             <i class="bi bi-search"></i>
             <input type="text" placeholder="Pesquise aqui">
         </div>
-        <div class="nav-icons">
-            <a><i class="bi bi-basket"></i></a>
-            <a><i class="bi bi-heart"></i></a>
-            <a href="perfil.html"><i class="bi bi-person-circle"></i></a>
+        <div>
+            <a href="../carrinho.html"><i class="bi bi-basket"></i></a>
+            <a href="../favoritos.html"><i class="bi bi-heart"></i></a>
+            <a href="../perfil.html"><i class="bi bi-person-circle"></i></a>
         </div>
     </nav>
 
-    <section class="cadastro-produto">
+    <main class="cadastro-produto">
         <div class="cadastro-container">
-            <div class="cabecalho-cadastro">
+            <section class="cabecalho-cadastro">
                 <h1>Cadastrar Produto</h1>
-                <a href="#"><i class="bi bi-x-lg"></i></a>
-            </div>
+            </section>
 
             <form class="formulario-produto">
                 <div class="linha-campos">
@@ -81,12 +83,115 @@
                         <input type="text" id="tamanhos" placeholder="Ex: P, M, G, GG">
                     </div>
                 </div>
-                <div class="botoes-cadastro">
-                    <button type="submit">Salvar Produto</button>
-                </div>
             </form>
+            <a href="#modal-pedido" class="abrir-modal"><button class="botoes-cadastro">Salvar Produto</button></a>
         </div>
-    </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="img/logo-branco.png" alt="RadTek Logo">
+                <p>Conectando você à tecnologia do futuro com produtos inovadores e serviços excepcionais.</p>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="YouTube">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section footer-links">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="ofertas.html">Ofertas</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section footer-links">
+                <h4>Categorias</h4>
+                <ul>
+                    <li><a href="produtos.html?cat=drones">Drones</a></li>
+                    <li><a href="produtos.html?cat=smartphones">Smartphones</a></li>
+                    <li><a href="produtos.html?cat=cameras">Câmeras</a></li>
+                    <li><a href="produtos.html?cat=fones">Fones de Ouvido</a></li>
+                    <li><a href="produtos.html?cat=wearables">Wearables</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section footer-contato">
+                <h4>Contato</h4>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="bi bi-envelope-fill"></i>
+                    </div>
+                    <span>contato@radtek.com</span>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="bi bi-telephone-fill"></i>
+                    </div>
+                    <span>(11) 91234-5678</span>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="bi bi-geo-alt-fill"></i>
+                    </div>
+                    <span>São Paulo - SP</span>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="bi bi-clock-fill"></i>
+                    </div>
+                    <span>Seg - Sex: 9h às 18h</span>
+                </div>
+
+                <div class="newsletter">
+                    <h4>Newsletter</h4>
+                    <p style="font-size: 0.9rem; color: #cbd5e1; margin-bottom: 15px;">
+                        Receba ofertas exclusivas e novidades em primeira mão.
+                    </p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Seu e-mail">
+                        <button type="submit" class="newsletter-btn">
+                            <i class="bi bi-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <div class="copyright">
+                    <p>&copy; 2025 <strong>RadTek</strong>. Todos os direitos reservados.</p>
+                </div>
+                <nav class="footer-nav">
+                    <a href="privacidade.html">Política de Privacidade</a>
+                    <a href="termos.html">Termos de Uso</a>
+                    <a href="cookies.html">Cookies</a>
+                    <a href="suporte.html">Suporte</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
 
     <div id="modal-pedido" class="modal-pedido">
         <section class="modal-conteudo">
@@ -99,7 +204,7 @@
             </div>
             <p>Produto <strong>cadastrado</strong> com sucesso.</p>
             <div class="buttons">
-                <a href="carrinho.html" class="botao-ver"><button>Ver produtos</button></a>
+                <a href="relatorio.html" class="botao-ver"><button>Ver relatorio</button></a>
             </div>
         </section>
     </div>
