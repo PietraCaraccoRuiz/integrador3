@@ -1,95 +1,107 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <title>Configurações - RadTek</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <title>Configurações - RadTek</title>
 </head>
+
 <body id="gray">
-    <nav>
-        <a href="index.html"><img src="./img/logo.png"></a>
-        <ul class="menu">
-            <li>
-                <a href="produtos.html">Produtos</a>
-                <ul class="submenu">
-                    <li ><a href="produtos.html"><img src="./img/nav-produtos/1.png">Câmera</a><div><a href="sobre.html">Info</a><a href="destalhes_produto.html">Comprar</a></div></li>
-                    <li><a href="produtos.html"><img src="./img/nav-produtos/2.png">Air Pods</a><div><a href="sobre.html">Info</a><a href="destalhes_produto.html">Comprar</a></div></li>
-                    <li><a href="produtos.html"><img src="./img/nav-produtos/3.png">Microfone</a><div><a href="sobre.html">Info</a><a href="destalhes_produto.html">Comprar</a></div></li>
-                    <li><a href="produtos.html"><img src="./img/nav-produtos/4.png">Smartphone</a><div><a href="sobre.html">Info</a><a href="destalhes_produto.html">Comprar</a></div></li>
-                    <li><a href="produtos.html"><img src="./img/nav-produtos/5.png">Fone</a><div><a href="sobre.html">Info</a><a href="destalhes_produto.html">Comprar</a></div></li>
-                </ul>
-            </li>
-            <li><a href="ofertas.html">Ofertas</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="contato.html">Contato</a></li>
+  <nav>
+    <a href="index.html"><img src="./img/logo.png"></a>
+    <ul class="menu">
+      <li>
+        <a href="produtos.html">Produtos</a>
+        <ul class="submenu">
+          <li><a href="produtos.html"><img src="./img/nav-produtos/1.png">Câmera</a>
+            <div><a href="sobre.html">Info</a><a href="destalhes_produto.html">Comprar</a></div>
+          </li>
+          <li><a href="produtos.html"><img src="./img/nav-produtos/2.png">Air Pods</a>
+            <div><a href="sobre.html">Info</a><a href="destalhes_produto.html">Comprar</a></div>
+          </li>
+          <li><a href="produtos.html"><img src="./img/nav-produtos/3.png">Microfone</a>
+            <div><a href="sobre.html">Info</a><a href="destalhes_produto.html">Comprar</a></div>
+          </li>
+          <li><a href="produtos.html"><img src="./img/nav-produtos/4.png">Smartphone</a>
+            <div><a href="sobre.html">Info</a><a href="destalhes_produto.html">Comprar</a></div>
+          </li>
+          <li><a href="produtos.html"><img src="./img/nav-produtos/5.png">Fone</a>
+            <div><a href="sobre.html">Info</a><a href="destalhes_produto.html">Comprar</a></div>
+          </li>
         </ul>
-        <div class="search">
-            <i class="bi bi-search"></i>
-            <input type="text" placeholder="Pesquise aqui">
-        </div>
-        <div>
-            <a href="carrinho.html"><i class="bi bi-basket"></i></a>
-            <a href="favoritos.html"><i class="bi bi-heart"></i></a>
-            <a href="perfil.html"><i class="bi bi-person-circle"></i></a>
-        </div>
-    </nav>
-    <main class="main-cart">
-            <section class="menu-lateral">
-                <h1> Minha Conta</h1>
-                <ul>
-                    <li><a href="perfil.html"><i class="bi bi-person-circle"></i>Meus detalhes</a></li>
-                    <li><a href="endereco.html"><i class="bi bi-geo"></i>Meus endereço</a></li>
-                    <li><a href="pedidos.html"><i class="bi bi-box2-heart"></i>Meus pedidos</a></li>
-                    <li><a href="politicas.html"><i class="bi bi-briefcase"></i>Políticas</a></li>
-                    <li><a href="configuracoes.html"><i class="bi bi-gear"></i>Configurações</a></li>  
-                </ul>
-            </section>
-            <div class="main-perfil" id="configuracoes">
-                <section>
-                    <h1>Configurações</h1>
-                    <p>Personalize preferências da sua conta, notificações e segurança.</p>
-                    <div class="config-cards">
-                      <article class="config-card">
-                        <div class="config-title">
-                          <h2><i class="bi bi-person-gear"></i> Preferências</h2>
-                        </div>
-                        <label>Nome de Exibição</label>
-                        <input type="text" value="João da Silva" />
-                        <label>Idioma</label>
-                        <select>
-                          <option>Português</option>
-                          <option>Inglês</option>
-                        </select>
-                      </article>
-                  
-                      <article class="config-card">
-                        <div class="config-title">
-                          <h2><i class="bi bi-bell-fill"></i> Notificações</h2>
-                        </div>
-                        <label><input type="checkbox" checked /> Receber promoções</label>
-                        <label><input type="checkbox" /> SMS sobre pedidos</label>
-                        <label><input type="checkbox" checked /> Notificações no app</label>
-                      </article>
-                  
-                      <article class="config-card">
-                        <div class="config-title">
-                          <h2><i class="bi bi-shield-lock-fill"></i> Segurança</h2>
-                        </div>
-                        <label>Nova Senha</label>
-                        <input type="password" placeholder="********" />
-                        <label>Confirmar Senha</label>
-                        <input type="password" placeholder="********" />
-                      </article>
-                    </div>
-                
-                    <div class="config-footer">
-                      <button class="submit-btn adicionar-btn"><i class="bi bi-check-circle"></i> Salvar Alterações</button>
-                    </div>
-                </section>
+      </li>
+      <li><a href="ofertas.html">Ofertas</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+    <div class="search">
+      <i class="bi bi-search"></i>
+      <input type="text" placeholder="Pesquise aqui">
+    </div>
+    <div>
+      <a href="carrinho.html"><i class="bi bi-basket"></i></a>
+      <a href="favoritos.html"><i class="bi bi-heart"></i></a>
+      <a href="perfil.html"><i class="bi bi-person-circle"></i></a>
+    </div>
+  </nav>
+  <main class="main-cart">
+    <section class="menu-lateral">
+      <h1> Minha Conta</h1>
+      <ul>
+        <li><a href="perfil.html"><i class="bi bi-person-circle"></i>Meus detalhes</a></li>
+        <li><a href="endereco.html"><i class="bi bi-geo"></i>Meus endereço</a></li>
+        <li><a href="pedidos.html"><i class="bi bi-box2-heart"></i>Meus pedidos</a></li>
+        <li><a href="politicas.html"><i class="bi bi-briefcase"></i>Políticas</a></li>
+        <li><a href="configuracoes.html"><i class="bi bi-gear"></i>Configurações</a></li>
+      </ul>
+    </section>
+    <div class="main-perfil" id="configuracoes">
+      <section>
+        <h1>Configurações</h1>
+        <p>Personalize preferências da sua conta, notificações e segurança.</p>
+        <div class="config-cards">
+          <article class="config-card">
+            <div class="config-title">
+              <h2><i class="bi bi-person-gear"></i> Preferências</h2>
             </div>
-    </main>  
+            <label>Nome de Exibição</label>
+            <input type="text" value="João da Silva" />
+            <label>Idioma</label>
+            <select>
+              <option>Português</option>
+              <option>Inglês</option>
+            </select>
+          </article>
+
+          <article class="config-card">
+            <div class="config-title">
+              <h2><i class="bi bi-bell-fill"></i> Notificações</h2>
+            </div>
+            <label><input type="checkbox" checked /> Receber promoções</label>
+            <label><input type="checkbox" /> SMS sobre pedidos</label>
+            <label><input type="checkbox" checked /> Notificações no app</label>
+          </article>
+
+          <article class="config-card">
+            <div class="config-title">
+              <h2><i class="bi bi-shield-lock-fill"></i> Segurança</h2>
+            </div>
+            <label>Nova Senha</label>
+            <input type="password" placeholder="********" />
+            <label>Confirmar Senha</label>
+            <input type="password" placeholder="********" />
+          </article>
+        </div>
+
+        <div class="config-footer">
+          <button class="submit-btn adicionar-btn"><i class="bi bi-check-circle"></i> Salvar Alterações</button>
+        </div>
+      </section>
+    </div>
+  </main>
 </body>
+
 </html>
