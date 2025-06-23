@@ -2,6 +2,7 @@
 
 # RadTek - E-commerce de Tecnologia
 
+Link do figma/documentação: https://www.figma.com/design/U7abqgQpAeaLguppNHZYXH/ecommerce---integrador?node-id=0-1&t=o3qmCoVRo0fjKT9N-1
 ## 📋 Sobre o Projeto
 
 O **RadTek** é um projeto de e-commerce desenvolvido para a disciplina de **Linguagem de Marcação**, com fins exclusivamente estudantis. O site simula uma loja online especializada em produtos tecnológicos como drones, smartphones, câmeras, fones de ouvido e wearables.
