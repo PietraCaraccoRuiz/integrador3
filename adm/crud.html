@@ -84,7 +84,11 @@
                     </div>
                 </div>
             </form>
-            <a href="#modal-pedido" class="abrir-modal"><button class="botoes-cadastro">Salvar Produto</button></a>
+            <div>
+                <a href="#modal-pedido" class="abrir-modal"><button class="botoes-cadastro">Salvar Produto</button></a>
+            <a href="#modal-excluir" class="abrir-modal"><button class="botoes-cadastro">Excluir Produto</button></a>
+            <a href="#modal-editar" class="abrir-modal"><button class="botoes-cadastro">Editar Produto</button></a>
+            </div>
         </div>
     </main>
     <footer class="footer">
@@ -193,6 +197,7 @@
         </div>
     </footer>
 
+    <!-- MODAL SALVAR -->
     <div id="modal-pedido" class="modal-pedido">
         <section class="modal-conteudo">
             <div class="modal-title">
@@ -205,6 +210,40 @@
             <p>Produto <strong>cadastrado</strong> com sucesso.</p>
             <div class="buttons">
                 <a href="relatorio.html" class="botao-ver"><button>Ver relatorio</button></a>
+            </div>
+        </section>
+    </div>
+    <!-- MODAL EXCLUSÃO -->
+    <div id="modal-excluir" class="modal-pedido">
+        <section class="modal-conteudo">
+            <div class="modal-title">
+                <div class="modal-icon">
+                    <i class="bi bi-cart-check-fill"></i>
+                    <h1>Sucesso</h1>
+                </div>
+                <a href="#" class="modal-fechar"><i class="bi bi-x"></i></a>
+            </div>
+            <p>Tem certeza que deseja <strong>excluir</strong> o produto?</p>
+            <div class="buttons">
+                <a href="#" class="botao-ver"><button>Sim</button></a>
+                <a href="#" class="botao-ver"><button>Nao</button></a>
+            </div>
+        </section>
+    </div>
+    <!-- MODAL EDITAR -->
+    <div id="modal-editar" class="modal-pedido">
+        <section class="modal-conteudo">
+            <div class="modal-title">
+                <div class="modal-icon">
+                    <i class="bi bi-cart-check-fill"></i>
+                    <h1>Sucesso</h1>
+                </div>
+                <a href="#" class="modal-fechar"><i class="bi bi-x"></i></a>
+            </div>
+            <p>Deseja <strong>editar</strong> o produto?</p>
+            <div class="buttons">
+                <a href="#" class="botao-ver"><button>Sim</button></a>
+                <a href="#" class="botao-ver"><button>Não</button></a>
             </div>
         </section>
     </div>
